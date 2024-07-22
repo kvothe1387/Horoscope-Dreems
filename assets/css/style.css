@@ -5,12 +5,13 @@ body {
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/noirlab2412a.jpg?c=16x9&q=h_833,w_1480,c_fill");
+    background-size: cover;
 }
 
 #button1 {
-    margin: auto;
-    display: block;
-    margin-bottom: 30px;
+   
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 #card1 {
@@ -19,9 +20,9 @@ body {
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 300px;
-
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
-
+    background-color: #bd30d000;
+    background-image: linear-gradient(to right, #bd30d0e1 50%, #a80068e2 100%);
+    background-color:rgb(, , , )
     
   }
