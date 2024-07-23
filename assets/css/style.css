@@ -10,11 +10,12 @@ body {
     background-size: cover;
 }
 
+
 #button1 {
     background-color: rgb(11, 211, 201);
 }
 
-#card1 {
+.card {
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
@@ -23,4 +24,7 @@ body {
     margin: 20px;
     background-color: #bd30d000;
     background-image: linear-gradient(to right, #bd30d0e1 50%, #a80068e2 100%);
+    
 }
+
+
