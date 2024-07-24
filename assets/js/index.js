@@ -2,3 +2,4 @@ document.getElementById('zodiac-form').addEventListener('submit', function (even
     event.preventDefault()
     location.assign('cards.html')
 })
+
