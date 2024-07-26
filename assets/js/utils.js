@@ -1,5 +1,5 @@
 // Function to retrieve user data from the landing page
-export function retrieveUserData() {
+function retrieveUserData() {
     let userData = {
         name: document.getElementById('userName').value,
         zodiac: document.getElementById('userZodiac').value
@@ -28,7 +28,7 @@ function createTable() {
 }
 
 // Function to append user data to the table
-export function appendUserDataToTable(userData) {
+function appendUserDataToTable(userData) {
     let table = document.getElementById('userDataTable');
 
     if (!table) {
