@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     storedData.forEach(userData => appendUserDataToTable(userData));
 });
 
-document.getElementById("goToCards").addEventListener("click", function(){
+document.getElementById("goToCards").addEventListener("click", function () {
     location.assign("cards.html")
 })
+
+

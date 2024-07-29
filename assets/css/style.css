@@ -2,15 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Papyrus', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    color: var(--primary);
-    background-color: var(--light);
+
+
     line-height: 1.25;
     background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/noirlab2412a.jpg?c=16x9&q=h_833,w_1480,c_fill");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+
 }
 
 
@@ -56,12 +55,9 @@ body {
 
 .text-center {
     text-align: center;
-    color: azure;
+
 }
 
-.text-right {
-    text-align: right;
-}
 
 #zodiac-form {
     display: flex;
@@ -92,6 +88,34 @@ main {
     font-family: 'Papyrus', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+
+}
+
+
+
+th {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
 
 
 
