@@ -1,47 +1,43 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    color: var(--primary);
-    background-color: var(--light);
-    line-height: 1.5;
+    font-family: 'Papyrus', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    line-height: 1.25;
     background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/noirlab2412a.jpg?c=16x9&q=h_833,w_1480,c_fill");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+
 }
 
-
-#button1 {
-    background-color: rgb(11, 211, 201);
-}
 
 #card1 {
     border-style: solid;
-    border-width: 1px;
-    border-radius: 50px;
+    border-width: 3px;
+    border-radius: 50%;
     padding: 10px;
     flex: 300px;
     margin: 20px;
-    background-color: #bd30d000;
-    background-image: linear-gradient(to right, #bd30d0e1 50%, #a80068e2 100%);
+    letter-spacing: 1px;
+    background-color: #00dade60;
+    background-image: linear-gradient(140deg, #00dade77 0%, #fb00ff85 100%);
 }
 
 #card2 {
-    
+
     border-width: 1px;
-    border-radius: 50px;
+    border-radius: 70px;
     padding: 10px;
     flex: 300px;
     width: 300px;
     margin: 20px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 200px;
-    background-color: #bd30d000;
-    background-image: linear-gradient(to right, #bd30d094 50%, #a8006885 100%);
+    background-color: #bd30d060;
+    background-image: linear-gradient(150deg, #00dadeab 0%, #a8006885 100%);
 }
 
 #horrorscope {
@@ -60,12 +56,9 @@ body {
 
 .text-center {
     text-align: center;
-    color: azure;
+
 }
 
-.text-right {
-    text-align: right;
-}
 
 #zodiac-form {
     display: flex;
@@ -82,28 +75,50 @@ body {
 #zodiac-form>div>div>input {
     width: 300px;
     background-color: rgba(255, 250, 250, 0.47);
-    padding: .50rem;
-    border-radius: 10px;
+    padding: .25rem;
+    border-radius: 50px;
     margin-top: .25rem;
-    margin-bottom: .25rem;
+    margin-bottom: .1rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
 }
 
 main {
-    margin-top: 15%;
+    margin-top: 5%;
+    font-family: 'Papyrus', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#button2 {
-    background-color: rgba(255, 250, 250, 0.47);
-    padding: .50rem;
-    margin-top: 15px;
-    border-radius: 10px;
+table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
 
 }
 
 
-h1 {
-    font-size: 400%;
+
+th {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
 }
+
+td {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+
 
 @media screen and (max-width:700px) {
     main {
