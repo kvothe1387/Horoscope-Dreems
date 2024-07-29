@@ -22,6 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.getElementById("goToCards").addEventListener("click", function () {
     location.assign("cards.html")
-})
-
+});
 
