@@ -11,17 +11,17 @@ function retrieveUserData() {
 function createTable() {
     let table = document.createElement('table');
     table.id = 'userDataTable';
-    table.className = 'table table-bordered table-striped'; 
+    table.className = 'table table-bordered table-striped';
 
     let header = table.createTHead();
     let headerRow = header.insertRow(0);
 
     let nameHeader = document.createElement('th');
-    nameHeader.innerHTML = 'Name';
+    nameHeader.innerHTML = 'Last victims name';
     headerRow.appendChild(nameHeader);
 
     let zodiacHeader = document.createElement('th');
-    zodiacHeader.innerHTML = 'Zodiac';
+    zodiacHeader.innerHTML = 'Last victims zodiac';
     headerRow.appendChild(zodiacHeader);
 
     document.getElementById('zodiacCardsContainer').appendChild(table);
