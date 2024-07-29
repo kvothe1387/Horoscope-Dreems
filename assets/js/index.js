@@ -12,8 +12,6 @@ function handleUserData() {
 }
 
 
-
-
 // Load and display existing data from localStorage on page load
 document.addEventListener('DOMContentLoaded', () => {
     const storedData = loadUserDataFromLocal();
