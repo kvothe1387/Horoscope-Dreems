@@ -39,7 +39,7 @@ Distributed under the MIT License.
 Project Link: https://github.com/kvothe1387/Horrorscope
 
 ## Deployment
-Link: 
+Link:  https://kvothe1387.github.io/Horrorscope/
 
 
 
