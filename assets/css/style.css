@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Papyrus', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     color: var(--primary);
     background-color: var(--light);
-    line-height: 1.5;
+    line-height: 1;
     background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/noirlab2412a.jpg?c=16x9&q=h_833,w_1480,c_fill");
     background-size: cover;
     background-attachment: fixed;
@@ -90,6 +90,7 @@ body {
 
 main {
     margin-top: 5%;
+    font-family: 'Papyrus', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #button2 {
