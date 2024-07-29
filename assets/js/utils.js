@@ -17,11 +17,11 @@ function createTable() {
     let headerRow = header.insertRow(0);
 
     let nameHeader = document.createElement('th');
-    nameHeader.innerHTML = 'Last victims name';
+    nameHeader.innerHTML = 'name';
     headerRow.appendChild(nameHeader);
 
     let zodiacHeader = document.createElement('th');
-    zodiacHeader.innerHTML = 'Last victims zodiac';
+    zodiacHeader.innerHTML = 'zodiac';
     headerRow.appendChild(zodiacHeader);
 
     document.getElementById('zodiacCardsContainer').appendChild(table);
